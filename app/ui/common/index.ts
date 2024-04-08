@@ -1,2 +1,3 @@
 export * from "./CategoryEventCard";
-export * from "./EventCard";
+export * from "./CardEvent";
+export * from "./BadgeIndicator";
