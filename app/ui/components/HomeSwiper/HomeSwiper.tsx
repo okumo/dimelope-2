@@ -19,6 +19,7 @@ export const HomeSwiper = () => {
         <Image
           src={"https://cdn.joinnus.com/files/2024/03/nUb6w0lM3ZfzWiU.jpg"}
           width={1500}
+          className="min-h-28"
           height={ImageHeightHomeSwiper}
           alt="image-swiper"
         />
@@ -29,6 +30,7 @@ export const HomeSwiper = () => {
           width={1500}
           height={ImageHeightHomeSwiper}
           alt="image-swiper"
+          className="min-h-28"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -37,6 +39,7 @@ export const HomeSwiper = () => {
           width={1500}
           height={ImageHeightHomeSwiper}
           alt="image-swiper"
+          className="min-h-28"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -45,6 +48,7 @@ export const HomeSwiper = () => {
           width={1500}
           height={ImageHeightHomeSwiper}
           alt="image-swiper"
+          className="min-h-28"
         />
       </SwiperSlide>
     </Swiper>

@@ -1,15 +1,20 @@
 import { CardEvent } from "./ui/common";
-import { HeaderSwiper, HomeSwiper, Navbar } from "./ui/components";
+import {
+  EventosDestacados,
+  HeaderSwiper,
+  HomeSwiper,
+  Navbar,
+} from "./ui/components";
 
 export default function Home() {
   return (
     <main>
-      <div className="min-h-full">
+      <div className="min-h-full relative">
         <header>
           <Navbar />
         </header>
         <section id="carousel-event-categories">
-          <div className="bg-red-500">
+          <div className="bg-slate-900">
             <HeaderSwiper />
           </div>
         </section>
@@ -23,37 +28,28 @@ export default function Home() {
             <p className="text-xl font-medium text-gray-900 dark:text-white py-2">
               Eventos Destacados
             </p>
-            <div
-              id="eventos-destacados-cards"
-              className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-2 gap-5"
-            >
-              <CardEvent
-                imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
-                imageWidth={350}
-                imageHeight={350}
-                dateTime="Martes 09 Abr. - 01:00pm"
-                description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
-                title="San Martín vs Binacional"
-              />
-              <CardEvent
-                imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
-                imageWidth={350}
-                imageHeight={350}
-                dateTime="Martes 09 Abr. - 01:00pm"
-                description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
-                title="San Martín vs Binacional"
-              />
-              <CardEvent
-                imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
-                imageWidth={350}
-                imageHeight={350}
-                dateTime="Martes 09 Abr. - 01:00pm"
-                description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
-                title="San Martín vs Binacional"
-              />
-            </div>
+            <EventosDestacados />
           </div>
         </section>
+        <section id="eventos-proximos">
+          <div className="p-5">
+            <p className="text-xl font-medium text-gray-900 dark:text-white py-2">
+              Próximos Eventos
+            </p>
+            <EventosDestacados />
+          </div>
+        </section>
+        <div className="hidden md:block">
+          <button
+            type="button"
+            className="fixed bottom-4 right-4 text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2"
+          >
+            🎉 CREA TU EVENTO 🎉
+          </button>
+        </div>
+        <div className="bg-white text-black items-center text-center fixed bottom-0 w-full md:hidden">
+          CREA TU EVENTO
+        </div>
       </div>
     </main>
   );
