@@ -1,8 +1,8 @@
-import { CardEvent } from "./ui/common";
 import {
   EventosDestacados,
   HeaderSwiper,
   HomeSwiper,
+  MobileNavigationMenu,
   Navbar,
 } from "./ui/components";
 
@@ -47,9 +47,9 @@ export default function Home() {
             🎉 CREA TU EVENTO 🎉
           </button>
         </div>
-        <div className="bg-white text-black items-center text-center fixed bottom-0 w-full md:hidden">
-          CREA TU EVENTO
-        </div>
+        <section id="navbar-footer">
+          <MobileNavigationMenu />
+        </section>
       </div>
     </main>
   );
