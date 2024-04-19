@@ -14,6 +14,7 @@ export const EventosDestacados = () => {
         dateTime="Martes 09 Abr. - 01:00pm"
         description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
         title="San Martín vs Binacional"
+        idEvent={1}
       />
       <CardEvent
         imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
@@ -22,6 +23,7 @@ export const EventosDestacados = () => {
         dateTime="Martes 09 Abr. - 01:00pm"
         description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
         title="San Martín vs Binacional"
+        idEvent={2}
       />
       <CardEvent
         imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
@@ -30,6 +32,7 @@ export const EventosDestacados = () => {
         dateTime="Martes 09 Abr. - 01:00pm"
         description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
         title="San Martín vs Binacional"
+        idEvent={3}
       />
       <CardEvent
         imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
@@ -38,6 +41,7 @@ export const EventosDestacados = () => {
         dateTime="Martes 09 Abr. - 01:00pm"
         description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
         title="San Martín vs Binacional"
+        idEvent={4}
       />
       <CardEvent
         imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
@@ -46,6 +50,7 @@ export const EventosDestacados = () => {
         dateTime="Martes 09 Abr. - 01:00pm"
         description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
         title="San Martín vs Binacional"
+        idEvent={1}
       />
       <CardEvent
         imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
@@ -54,6 +59,7 @@ export const EventosDestacados = () => {
         dateTime="Martes 09 Abr. - 01:00pm"
         description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
         title="San Martín vs Binacional"
+        idEvent={1}
       />
       <CardEvent
         imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
@@ -62,6 +68,7 @@ export const EventosDestacados = () => {
         dateTime="Martes 09 Abr. - 01:00pm"
         description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
         title="San Martín vs Binacional"
+        idEvent={1}
       />
       <CardEvent
         imageSrc="https://static.vaope.com/public/products/1023/large/9977-GRILLA_SAN-MARTIN.jpg"
@@ -70,6 +77,7 @@ export const EventosDestacados = () => {
         dateTime="Martes 09 Abr. - 01:00pm"
         description="Estadio Iván Elías Moreno, Av. los Alamos - VILLA EL SALVADOR - LIMA"
         title="San Martín vs Binacional"
+        idEvent={1}
       />
     </div>
   );

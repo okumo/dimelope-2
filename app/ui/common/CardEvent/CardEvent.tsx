@@ -12,11 +12,12 @@ export const CardEvent = ({
   imageWidth,
   title,
   isFree,
+  idEvent,
 }: CardEventInterface) => {
   return (
     <div className="max-w-72 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <div className="relative">
-        <a href="#">
+        <a href={`/events/${idEvent}/view`}>
           <Image
             src={imageSrc}
             width={imageWidth}
@@ -29,7 +30,7 @@ export const CardEvent = ({
         </div>
       </div>
 
-      <div className="p-1">
+      <div className="p-2">
         <a href="#">
           <h5 className="my-1 text-sm font-bold tracking-tight text-gray-900 dark:text-white">
             {title}

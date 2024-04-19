@@ -6,4 +6,5 @@ export interface CardEventInterface {
   description: string;
   dateTime: string;
   isFree?: boolean;
+  idEvent: number;
 }
