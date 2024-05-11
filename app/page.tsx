@@ -15,17 +15,23 @@ export default function Home() {
       </section>
       <section id="eventos-destacados">
         <div className="p-5">
-          <p className="text-xl font-medium text-gray-900 dark:text-white py-2">
-            Eventos Destacados
-          </p>
+          <div className="bg-yellow-300 rounded-lg p-2 my-2">
+            <p className="text-xl font-semibold text-gray-900 dark:text-white py-2">
+              Eventos Destacados
+            </p>
+          </div>
+
           <EventosDestacados />
         </div>
       </section>
       <section id="eventos-proximos">
         <div className="p-5">
-          <p className="text-xl font-medium text-gray-900 dark:text-white py-2">
-            Próximos Eventos
-          </p>
+          <div className="bg-yellow-300 rounded-lg p-2 my-2">
+            <p className="text-xl font-semibold text-gray-900 dark:text-white py-2">
+              Próximos Eventos
+            </p>
+          </div>
+
           <EventosDestacados />
         </div>
       </section>
