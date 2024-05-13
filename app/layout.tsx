@@ -6,6 +6,8 @@ import { register } from "swiper/element/bundle";
 import "swiper/swiper-bundle.css";
 import "swiper/css/pagination";
 import { MobileNavigationMenu, Navbar } from "./ui/components";
+import Image from "next/image";
+import { SocialIcon } from "react-social-icons";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,6 +39,53 @@ export default function RootLayout({
               🎉 CREA TU EVENTO 🎉
             </button>
           </div>
+
+          <section id="footer-terms" className="bg-yellow-300 py-7">
+            <div className="flex flex-wrap align-middle items-center self-center justify-center">
+              <p className=" p-4 font-bold antialiased">¿TIENES UN EVENTO?</p>
+              <p className=" p-4 font-bold antialiased">CENTRO DE AYUDA</p>
+              <p className=" p-4 font-bold antialiased">BLOG</p>
+              <p className=" p-4 font-bold antialiased">CONTÁCTANOS</p>
+            </div>
+            <div className="flex justify-center p-4">
+              <Image
+                src={"/assets/dimelope_bg_full.png"}
+                alt="logo-dimelope"
+                width={200}
+                height={200}
+                className="block bg-black"
+              />
+            </div>
+            <div className="flex justify-center p-4">
+              <p>© DIMELOpe.com - Todos los derechos reservados</p>
+            </div>
+            <div className="flex justify-center ">
+              <SocialIcon
+                network="youtube"
+                style={{ height: 25, width: 25 }}
+                className="mr-2"
+              />
+              <SocialIcon
+                network="facebook"
+                style={{ height: 25, width: 25 }}
+                className="mr-2"
+              />
+              <SocialIcon
+                network="instagram"
+                style={{ height: 25, width: 25 }}
+                className="mr-2"
+              />
+              <SocialIcon
+                network="tiktok"
+                style={{ height: 25, width: 25 }}
+                className="mr-2"
+              />
+            </div>
+            <div className="flex justify-center p-6  divide-x divide divide-black">
+              <p className="px-3">Términos y Condiciones</p>
+              <p className="px-3">Políticas de Privacidad</p>
+            </div>
+          </section>
           <section id="navbar-footer">
             <MobileNavigationMenu />
           </section>
